@@ -1,0 +1,237 @@
+html {
+    font-size: 16px;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+body {
+    font-family: 'Rubik', sans-serif;;
+    margin: 0px;
+    background-color: #020403;
+    color: #adadad;
+}
+
+
+
+.hero__navbar {
+    height: 80px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-right: 8%;
+    padding-left: 8%;
+
+}
+
+.hero__navbar nav {
+    padding: 0 10px;
+    display: flex;
+    gap: 1.5rem;
+
+}
+
+.hero__navbar nav a {
+    font-size: 1rem;
+    color: #adadad;
+    text-decoration: none;
+    transition: all .3s ease-in-out;
+    cursor: pointer;
+}
+
+.hero__navbar nav a:hover {
+    font-size: .80rem;
+    color: white;
+    text-decoration: none;
+}
+.hero__container {
+    height: 100%;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+   
+}
+
+.hero__img-container {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    margin-bottom: 1rem;
+
+}
+
+.hero__img-container img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+
+}
+
+.name-efect:hover {
+    font-size: 2.5rem;
+    color: blueviolet;
+    transition: all .3s ease-in-out;
+}
+
+.hero__info {
+    text-align: center;
+    width: 450px;
+}
+
+.hero__subtitle {
+    color: #fff;
+    font-size: clamp(16px, 2vh, 80px);
+}
+
+.hero__title,
+.hero__subtitle {
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+
+.herosocial {
+    display: flex;
+    gap: 10rem;
+    justify-content: center;
+}
+
+.herosocial i {
+    font-size: 30px;
+    color: #adadad;
+    transition: all .3s ease-in-out;
+}
+
+.herosocial i:hover {
+
+    color: #fff;
+    font-size: 45px;
+}
+@media-query{
+
+
+}
+.wrapper {
+    height: 100%;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+   
+    
+}
+
+.about {
+    padding: 2rem 190px;
+    text-align: center;
+}
+
+.about-title {
+    
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+}
+
+.about p {
+    color: white;
+    padding: 0 10px 0 50px;
+}
+
+
+.skills__container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-bottom: 70px;
+       
+}
+
+.card {
+    border: 1px inset #fff;
+    border-radius: 10px;
+    width: 150px;
+    height: 150px;
+    margin: 15px;
+}
+
+.card__body{
+    text-align: center;
+}
+
+.card__title {
+    color: white;
+    font-size: 15px;
+    text-align: center;
+}
+
+.card-text {
+    color: white;
+    font-size: 12px;
+    margin: 5px 5px;
+}
+
+.card__img img{
+  width: 50px;
+  height: 50px;
+  margin-top: 5px;
+}
+
+.card__img {
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.skills_seccion{
+    display: flex;
+}
+
+.skills_title{
+    color:#adadad;;
+    text-align: center;
+}
+
+.container__habilidades{
+    display: flex;
+    padding-left: 55px;
+    margin-bottom: 30px;
+}
+
+.container-exp{
+    border-bottom: 1px solid #adadad;
+   
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+.container-imgp{
+    width: 1024px;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+
+
+.imgpp {
+    
+    height: 200px;
+    display: flex;
+    margin: 1px;
+    flex-direction: row;
+}
+
+
+
+
+
